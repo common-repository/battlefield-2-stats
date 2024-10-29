@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battlefield 2 Stats WordPress Plugin v1.14\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-06-08 03:34-0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\Webserver\\htdocs\\newblog\\wordpress\\wp-content\\plugins\\wp_bf2s\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"Last-Translator: Viper007Bond <http://www.viper007bond.com/>\n"
+"Language-Team: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+# Configuration page title.
+#: wp_bf2s.php:33
+#: wp_bf2s.php:293
+msgid "Battlefield 2 Stats Configuration"
+msgstr ""
+
+# The label for the menu tab.
+#: wp_bf2s.php:33
+msgid "BF2 Stats"
+msgstr ""
+
+#: wp_bf2s.php:73
+msgid "Options reset to defaults."
+msgstr ""
+
+#: wp_bf2s.php:92
+msgid "Options saved."
+msgstr ""
+
+#: wp_bf2s.php:98
+#, php-format
+msgid "Display options saved, but you've attempted to change your PID / player name. Are you REALLY sure that you want to do that? Changing your it multiple times over a short period of time can get your server's IP address temporarily banned from fetching data from BF2S.com. If you're really sure you want to change it to &quot;%s&quot;, then <a href='%s'>click here</a>."
+msgstr ""
+
+#: wp_bf2s.php:137
+msgid "PID changed and data cache cleared."
+msgstr ""
+
+#: wp_bf2s.php:144
+msgid "Log cleared."
+msgstr ""
+
+# Leave the %s' in there. They'll be replaced by their values.
+#: wp_bf2s.php:184
+#, php-format
+msgid "Old version of the plugin options detected. Updating from version %s to version %s..."
+msgstr ""
+
+#: wp_bf2s.php:186
+#, php-format
+msgid "Old version of the plugin options detected. Updating to version %s..."
+msgstr ""
+
+#: wp_bf2s.php:222
+msgid "Failed to check for a new version. We'll try again in at least 24 hours."
+msgstr ""
+
+#: wp_bf2s.php:227
+msgid "New version of this plugin has been found and saved the data about it."
+msgstr ""
+
+#: wp_bf2s.php:274
+msgid "Hide this message for at least 24 hours"
+msgstr ""
+
+# Leave the %s' in there. They'll be replaced by their values.
+#: wp_bf2s.php:274
+#, php-format
+msgid "A new version (v%s) of the Battlefield 2 Stats plugin is out! It's recommended that you download <a href='%s'>the latest version</a> now to make use of the new features and/or bug fixes. New in this version: <em>%s</em>"
+msgstr ""
+
+#: wp_bf2s.php:301
+msgid "Your PID:"
+msgstr ""
+
+#: wp_bf2s.php:306
+msgid "You <strong>cannot</strong> use a playername! Valid example:"
+msgstr ""
+
+#: wp_bf2s.php:307
+msgid "If you do not know your PID, you can find it via"
+msgstr ""
+
+#: wp_bf2s.php:313
+msgid "Display Options"
+msgstr ""
+
+#: wp_bf2s.php:318
+msgid "Display player name?"
+msgstr ""
+
+#: wp_bf2s.php:326
+msgid "Display rank icon?"
+msgstr ""
+
+#: wp_bf2s.php:329
+msgid "Requires player name to be displayed"
+msgstr ""
+
+#: wp_bf2s.php:334
+msgid "Display global score?"
+msgstr ""
+
+#: wp_bf2s.php:342
+msgid "Display play time?"
+msgstr ""
+
+#: wp_bf2s.php:350
+msgid "Display play time units?"
+msgstr ""
+
+#: wp_bf2s.php:353
+msgid "Example:"
+msgstr ""
+
+#: wp_bf2s.php:358
+msgid "Display score per minute?"
+msgstr ""
+
+#: wp_bf2s.php:366
+msgid "Display kills?"
+msgstr ""
+
+#: wp_bf2s.php:374
+msgid "Display deaths?"
+msgstr ""
+
+#: wp_bf2s.php:382
+msgid "Display kill/death ratio?"
+msgstr ""
+
+#: wp_bf2s.php:390
+msgid "Display wins?"
+msgstr ""
+
+#: wp_bf2s.php:398
+msgid "Display losses?"
+msgstr ""
+
+#: wp_bf2s.php:406
+msgid "Display win/loss ratio?"
+msgstr ""
+
+#: wp_bf2s.php:414
+msgid "Display percent to next rank?"
+msgstr ""
+
+#: wp_bf2s.php:422
+msgid "Percentage type:"
+msgstr ""
+
+# Leave the %s in there. It'll be replaced by the correct URL.
+#: wp_bf2s.php:429
+#, php-format
+msgid "See <a href='%s'>FAQ</a> for type descriptions."
+msgstr ""
+
+#: wp_bf2s.php:435
+msgid "Other Options"
+msgstr ""
+
+#: wp_bf2s.php:440
+msgid "Check for plugin updates periodically?"
+msgstr ""
+
+#: wp_bf2s.php:443
+msgid "If this box is checked, this plugin will connect to Viper007Bond.com and check for a new version from time to time. Note that some stats (like WordPress version and plugin version) will be sent along too in order to better help me improve this plugin."
+msgstr ""
+
+#: wp_bf2s.php:450
+#: wp_bf2s.php:452
+msgid "Update Options"
+msgstr ""
+
+#: wp_bf2s.php:451
+msgid "Reset to Defaults"
+msgstr ""
+
+#: wp_bf2s.php:459
+msgid "Test Output &amp; Debugging"
+msgstr ""
+
+#: wp_bf2s.php:462
+msgid "Here is what your output will look like, along with the plugin's log and any error messages."
+msgstr ""
+
+#: wp_bf2s.php:463
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to see the raw plugin data."
+msgstr ""
+
+#: wp_bf2s.php:471
+msgid "Debug Output"
+msgstr ""
+
+#: wp_bf2s.php:481
+msgid "Odd, the debug log was empty!"
+msgstr ""
+
+#: wp_bf2s.php:494
+msgid "Log Output"
+msgstr ""
+
+#: wp_bf2s.php:501
+#, php-format
+msgid "This is a list of the last 25 things of importance to occur in relation to this plugin. To clear this list, <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: wp_bf2s.php:506
+msgid "Nothing to report yet! :)"
+msgstr ""
+
+#: wp_bf2s.php:527
+msgid "The current PID is 0 which is an invalid PID. Please enter a valid PID."
+msgstr ""
+
+#: wp_bf2s.php:528
+msgid "<strong>Error:</strong> Please enter a valid BF2 PID."
+msgstr ""
+
+#: wp_bf2s.php:537
+msgid "<strong>Error:</strong> No results were returned. See below for details."
+msgstr ""
+
+#: wp_bf2s.php:539
+msgid "<strong>Error:</strong> No results were returned. Site owner: see plugin's options page."
+msgstr ""
+
+#: wp_bf2s.php:544
+#: wp_bf2s.php:545
+#: wp_bf2s.php:546
+msgid "N/A"
+msgstr ""
+
+#: wp_bf2s.php:552
+msgid "Private"
+msgstr ""
+
+#: wp_bf2s.php:557
+msgid "Private First Class"
+msgstr ""
+
+#: wp_bf2s.php:562
+msgid "Lance Corporal"
+msgstr ""
+
+#: wp_bf2s.php:567
+msgid "Corporal"
+msgstr ""
+
+#: wp_bf2s.php:572
+msgid "Sergeant"
+msgstr ""
+
+#: wp_bf2s.php:577
+msgid "Staff Sergeant"
+msgstr ""
+
+#: wp_bf2s.php:582
+msgid "Gunnery Sergeant"
+msgstr ""
+
+#: wp_bf2s.php:587
+msgid "Master Sergeant"
+msgstr ""
+
+#: wp_bf2s.php:592
+msgid "First Sergeant"
+msgstr ""
+
+#: wp_bf2s.php:597
+msgid "Master Gunnery Sergeant"
+msgstr ""
+
+#: wp_bf2s.php:602
+msgid "Sergeant Major"
+msgstr ""
+
+#: wp_bf2s.php:607
+msgid "Sergeant Major of the Corps"
+msgstr ""
+
+#: wp_bf2s.php:612
+msgid "2nd Lieutenant"
+msgstr ""
+
+#: wp_bf2s.php:617
+msgid "1st Lieutenant"
+msgstr ""
+
+#: wp_bf2s.php:622
+msgid "Captain"
+msgstr ""
+
+#: wp_bf2s.php:627
+msgid "Major"
+msgstr ""
+
+#: wp_bf2s.php:632
+msgid "Lieutenant Colonel"
+msgstr ""
+
+#: wp_bf2s.php:637
+msgid "Colonel"
+msgstr ""
+
+#: wp_bf2s.php:642
+msgid "Brigadier General"
+msgstr ""
+
+#: wp_bf2s.php:647
+msgid "Major General"
+msgstr ""
+
+#: wp_bf2s.php:652
+msgid "Lieutenant General"
+msgstr ""
+
+#: wp_bf2s.php:656
+msgid "General"
+msgstr ""
+
+#: wp_bf2s.php:666
+msgid "View full player statistics"
+msgstr ""
+
+#: wp_bf2s.php:675
+msgid "Global Score:"
+msgstr ""
+
+# Decimal separator
+#: wp_bf2s.php:675
+#: wp_bf2s.php:681
+#: wp_bf2s.php:684
+#: wp_bf2s.php:687
+#: wp_bf2s.php:690
+#: wp_bf2s.php:693
+#: wp_bf2s.php:696
+#: wp_bf2s.php:699
+#: wp_bf2s.php:715
+#: wp_bf2s.php:919
+#: wp_bf2s.php:923
+msgid "."
+msgstr ""
+
+# Thousands seperator
+#: wp_bf2s.php:675
+#: wp_bf2s.php:681
+#: wp_bf2s.php:684
+#: wp_bf2s.php:687
+#: wp_bf2s.php:690
+#: wp_bf2s.php:693
+#: wp_bf2s.php:696
+#: wp_bf2s.php:699
+#: wp_bf2s.php:715
+#: wp_bf2s.php:919
+#: wp_bf2s.php:923
+msgid ","
+msgstr ""
+
+#: wp_bf2s.php:678
+msgid "Playtime:"
+msgstr ""
+
+#: wp_bf2s.php:681
+msgid "Score per Minute:"
+msgstr ""
+
+#: wp_bf2s.php:684
+msgid "Kills:"
+msgstr ""
+
+#: wp_bf2s.php:687
+msgid "Deaths:"
+msgstr ""
+
+#: wp_bf2s.php:690
+msgid "Kill/Death Ratio:"
+msgstr ""
+
+#: wp_bf2s.php:693
+msgid "Wins:"
+msgstr ""
+
+#: wp_bf2s.php:696
+msgid "Losses:"
+msgstr ""
+
+#: wp_bf2s.php:699
+msgid "Win/Loss Ratio:"
+msgstr ""
+
+# This is for "12.34% TO the next rank".
+#: wp_bf2s.php:715
+msgid "to"
+msgstr ""
+
+# This is for "12.34% to THE NEXT RANK".
+#: wp_bf2s.php:715
+msgid "the next rank"
+msgstr ""
+
+#: wp_bf2s.php:718
+#, php-format
+msgid "Stats thanks to <a href=\"%s\" title=\"A great Battlefield 2 stats website\">BF2S.com</a>"
+msgstr ""
+
+#: wp_bf2s.php:739
+msgid "Found previous data in the database."
+msgstr ""
+
+#: wp_bf2s.php:745
+#, php-format
+msgid "The data from the database is only %s old, which is newer than 6 hours. Therefore, we'll use it!"
+msgstr ""
+
+#: wp_bf2s.php:748
+#, php-format
+msgid "The data from the database is %s old, which is older than 6 hours. Therefore, we need to attempt to get fresher data."
+msgstr ""
+
+#: wp_bf2s.php:751
+msgid "No data was found in the database, so we need to get some data."
+msgstr ""
+
+#: wp_bf2s.php:762
+#, php-format
+msgid "Aborting the fetching of new data. We had a fetch data failure only %s ago (see the log for the error message). Since we failed so recently, we'll wait until it's been at least %s minutes since we failed before trying again. This to avoid hammering BF2S.com and to avoid long page generation times here."
+msgstr ""
+
+#: wp_bf2s.php:764
+#: wp_bf2s.php:783
+#: wp_bf2s.php:791
+#: wp_bf2s.php:801
+#: wp_bf2s.php:822
+#: wp_bf2s.php:855
+msgid "Since we already have some old data to use, falling back to that."
+msgstr ""
+
+#: wp_bf2s.php:770
+msgid "Attempting to fetch XML document from"
+msgstr ""
+
+#: wp_bf2s.php:789
+#, php-format
+msgid "Sucessfully read the XML document, but it was blank. The most likely reason is that your PID is invalid, is in the queue, has too few points, etc. See <a href='%s'>the BF2S.com FAQ</a> for possible details."
+msgstr ""
+
+#: wp_bf2s.php:797
+msgid "Failed to fetch the XML document. This server's IP address has been temporarily banned from the feed due to exceeding the 3 queries per 6 hours limit. This is either a result of you changing your PID too many times over a short period of time or someone else on this server also accessing the feed and combined, you hit the limit. Sorry, but there's nothing this script can do now but wait. Just give it some time and BF2S.com should allow you to fetch new data in a few hours."
+msgstr ""
+
+#: wp_bf2s.php:807
+msgid "Sucessfully read the XML document, attempting to parse..."
+msgstr ""
+
+#: wp_bf2s.php:816
+#: wp_bf2s.php:849
+msgid "Failed to parse the XML document that was fetched."
+msgstr ""
+
+#: wp_bf2s.php:832
+msgid "Sucessfully parsed the XML document that was fetched."
+msgstr ""
+
+#: wp_bf2s.php:835
+msgid "Sucessfully saved new data array to the database."
+msgstr ""
+
+#: wp_bf2s.php:837
+msgid "Saving of the new data array to the database failed for some unknown reason!"
+msgstr ""
+
+# Leave the %s in there. It'll be replaced by the correct URL.
+#: wp_bf2s.php:876
+#, php-format
+msgid "Failed to connect to %s. The error / error number was:"
+msgstr ""
+
+# Abbreviation for "hours". It's used for displaying playtime and such: Playtime: 222h:43m:55s
+#: wp_bf2s.php:919
+msgid "h"
+msgstr ""
+
+# Abbreviation for "minutes". It's used for displaying playtime and such: Playtime: 222h:43m:55s
+#: wp_bf2s.php:920
+msgid "m"
+msgstr ""
+
+# Abbreviation for "seconds". It's used for displaying playtime and such: Playtime: 222h:43m:55s
+#: wp_bf2s.php:921
+msgid "s"
+msgstr ""
+
+# The title of the WP-Dash widget.
+#: wp_bf2s.php:985
+#: wp_bf2s.php:1035
+#: wp_bf2s.php:1036
+msgid "Battlefield 2 Stats"
+msgstr ""
+
+# The description for the WP-Dash widget.
+#: wp_bf2s.php:985
+msgid "Displays your Battlefield 2 stats."
+msgstr ""
+
+#: wp_bf2s.php:1012
+msgid "My BF2 Stats"
+msgstr ""
+
+#: wp_bf2s.php:1029
+#, php-format
+msgid "To configure the output of your actual stats,<br />please visit the plugin's <a href='%s'>options page</a>."
+msgstr ""
+
